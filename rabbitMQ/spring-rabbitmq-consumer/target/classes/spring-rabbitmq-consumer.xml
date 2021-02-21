@@ -26,7 +26,7 @@
     <bean id="topicListenerWell" class="com.lyx.rabbitmq.listener.TopicListenerWell"/>
     <bean id="topicListenerWell2" class="com.lyx.rabbitmq.listener.TopicListenerWell2"/>
 
-    <rabbit:listener-container connection-factory="connectionFactory" auto-declare="true" acknowledge="manual" prefetch="5">
+    <rabbit:listener-container connection-factory="connectionFactory" auto-declare="true" acknowledge="manual" prefetch="1000">
         <rabbit:listener ref="springQueueListener" queue-names="spring_queue"/>
         <rabbit:listener ref="fanoutListener1" queue-names="spring_fanout_queue_1"/>
         <rabbit:listener ref="fanoutListener2" queue-names="spring_fanout_queue_2"/>
@@ -36,6 +36,11 @@
 
         <!--<rabbit:listener ref="ackListener" queue-names="test_queue_confirm_name"></rabbit:listener>-->
         <rabbit:listener ref="qosListener" queue-names="test_queue_confirm_name"></rabbit:listener>
+
+        <!--监听正常队列-->
+        <rabbit:listener ref="testDLXListener" queue-names="test_queue_dlx"></rabbit:listener>
+        <!--监听死信队列-->
+        <!--<rabbit:listener ref="DLXListener" queue-names="queue_dlx"></rabbit:listener>-->
     </rabbit:listener-container>
 
     <!--高级特效Consumer Ack-->

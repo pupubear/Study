@@ -160,4 +160,23 @@ public class ProducerTest {
             rabbitTemplate.convertAndSend("test_exchange_ttl","ttl.haha","message ttl...",messagePostProcessor);
         }
     }
+
+    /**
+     * 发送测试死信消息
+     *  1. 过期时间
+     *  2. 长度限制
+     *  3. 消息拒收
+     */
+    @Test
+    public void testDXL() {
+        rabbitTemplate.convertAndSend("test_exchange_dlx","test.dlx.#","我是一条消息，我会死吗？");
+    }
+
+    /**
+     * order 订单 延迟队列
+     */
+    @Test
+    public void testOrder() {
+        rabbitTemplate.convertAndSend("order_queue","order.order","用户已下单...");
+    }
 }

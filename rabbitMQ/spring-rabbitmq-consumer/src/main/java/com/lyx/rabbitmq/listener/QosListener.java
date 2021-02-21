@@ -23,6 +23,6 @@ public class QosListener implements ChannelAwareMessageListener {
         System.out.println(new String(message.getBody()));
         //2. 处理业务逻辑
         //3. 签收
-//        channel.basicAck(message.getMessageProperties().getDeliveryTag(),true);
+        channel.basicAck(message.getMessageProperties().getDeliveryTag(),true);
     }
 }

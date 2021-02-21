@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class RabbitMQListener {
 
-    @RabbitListener(queues = "boot_queue")
+    @RabbitListener(queues = "queue")
     public void listenerQueue(Message message) {
         System.out.println("boot_queue==> " + new String(message.getBody()));
     }

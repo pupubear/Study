@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26aa3e3-2149-48e0-9880-7bd06fb1abbe" name="Default Changelist" comment="update" />
+    <list default="true" id="a26aa3e3-2149-48e0-9880-7bd06fb1abbe" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-consumer/src/main/java/com/lyx/rabbitmq/listener/AckListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-consumer/src/main/java/com/lyx/rabbitmq/listener/QosListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumer/src/main/resources/spring-rabbitmq-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumer/src/main/resources/spring-rabbitmq-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumer/target/classes/META-INF/spring-rabbitmq-consumer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumer/target/classes/spring-rabbitmq-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumer/target/classes/spring-rabbitmq-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/spring-rabbitmq-producer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/spring-rabbitmq-producer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers/src/test/java/com/lyx/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers/src/test/java/com/lyx/ProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers/target/classes/spring-rabbitmq-producer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers/target/classes/spring-rabbitmq-producer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers/target/test-classes/com/lyx/ProducerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers/target/test-classes/com/lyx/ProducerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-consumer/src/main/java/com/example/springbootconsumer/listener/RabbitMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-consumer/src/main/java/com/example/springbootconsumer/listener/RabbitMQListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/src/main/java/com/lyx/rabbitmq/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/src/main/java/com/lyx/rabbitmq/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/src/test/java/com/lyx/test/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/src/test/java/com/lyx/test/ProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/target/classes/com/lyx/rabbitmq/config/RabbitMQConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/target/classes/com/lyx/rabbitmq/config/RabbitMQConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/target/test-classes/com/lyx/test/ProducerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/target/test-classes/com/lyx/test/ProducerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-producer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-rabbitmq-producers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,37 +79,24 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3091954" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lyx.rabbitmq.listener" />
       <recent name="com.lyx.consumer" />
       <recent name="com.lyx.producer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java项目\rabbitMQ\spring-rabbitmq-producers" />
       <recent name="F:\Java项目\rabbitMQ\springboot-producer\src\main\resources" />
       <recent name="F:\Java项目\rabbitMQ\spring-rabbitmq-consumer\src\main\resources" />
       <recent name="F:\Java项目\rabbitMQ\spring-rabbitmq-producers\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProducerTest.testSend">
-    <configuration name="ConsumerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-rabbitmq-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyx" />
-      <option name="MAIN_CLASS_NAME" value="com.lyx.ConsumerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProducerTest.testTTL">
     <configuration name="ConsumerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-rabbitmq-consumer" />
       <extension name="coverage">
@@ -110,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerTest.testFanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerTest.testConfirm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-rabbitmq-producers" />
       <extension name="coverage">
         <pattern>
@@ -120,40 +123,53 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lyx" />
       <option name="MAIN_CLASS_NAME" value="com.lyx.ProducerTest" />
-      <option name="METHOD_NAME" value="testFanout" />
+      <option name="METHOD_NAME" value="testConfirm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerTest.testReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-producers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyx" />
+      <option name="MAIN_CLASS_NAME" value="com.lyx.ProducerTest" />
+      <option name="METHOD_NAME" value="testReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testTTL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-producers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyx" />
+      <option name="MAIN_CLASS_NAME" value="com.lyx.ProducerTest" />
+      <option name="METHOD_NAME" value="testTTL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyx.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyx.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lyx.test.ProducerTest" />
-      <option name="METHOD_NAME" value="testSend" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerTest.testTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-rabbitmq-producers" />
-      <extension name="coverage">
-        <pattern>
           <option name="PATTERN" value="com.lyx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lyx" />
-      <option name="MAIN_CLASS_NAME" value="com.lyx.ProducerTest" />
-      <option name="METHOD_NAME" value="testTopic" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyx.ProducerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProducerTest.testSend" />
-        <item itemvalue="JUnit.ConsumerTest" />
-        <item itemvalue="JUnit.ProducerTest.testTopic" />
+        <item itemvalue="JUnit.ProducerTest.testTTL" />
         <item itemvalue="JUnit.ConsumerTest.test" />
-        <item itemvalue="JUnit.ProducerTest.testFanout" />
+        <item itemvalue="JUnit.ProducerTest.testReturn" />
+        <item itemvalue="JUnit.ProducerTest.testConfirm" />
+        <item itemvalue="Spring Boot.ProducerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +201,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613830063965</updated>
-      <workItem from="1613830066370" duration="16798000" />
+      <workItem from="1613830066370" duration="18306000" />
+      <workItem from="1613878325411" duration="19342000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1613846776194</created>
@@ -201,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613846870111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1613846914667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613846914667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,67 +244,68 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1613844169693">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1613888512054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1613844169693" />
-    <state x="252" y="451" key="#com.intellij.ide.util.MemberChooser" timestamp="1613842989726">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1613888512054" />
+    <state x="252" y="451" key="#com.intellij.ide.util.MemberChooser" timestamp="1613898626346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="451" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613842989726" />
+    <state x="252" y="451" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613898626346" />
     <state x="1034" y="368" key="FileChooserDialogImpl" timestamp="1613843250345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1034" y="368" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613843250345" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1613846648514">
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1613898862901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613846648514" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1613846648514">
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613898862901" />
+    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1613898862900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613846648514" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1613846648513">
+    <state width="1877" height="372" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613898862900" />
+    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1613898862900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613846648513" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1613846648514">
+    <state width="1877" height="372" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613898862900" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1613898862901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613846648514" />
-    <state width="1877" height="412" key="GridCell.Tab.1.bottom" timestamp="1613846280812">
+    <state width="1877" height="372" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613898862901" />
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1613889973165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613846280812" />
-    <state width="1877" height="412" key="GridCell.Tab.1.center" timestamp="1613846280812">
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613889973165" />
+    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1613889973165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="412" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613846280812" />
-    <state width="1877" height="412" key="GridCell.Tab.1.left" timestamp="1613846280812">
+    <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613889973165" />
+    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1613889973165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="412" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613846280812" />
-    <state width="1877" height="412" key="GridCell.Tab.1.right" timestamp="1613846280812">
+    <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613889973165" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1613889973165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="412" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613846280812" />
-    <state x="354" y="285" key="SettingsEditor" timestamp="1613846902344">
+    <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613889973165" />
+    <state x="354" y="285" key="SettingsEditor" timestamp="1613847025758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="354" y="285" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613846902344" />
-    <state x="618" y="342" key="new project wizard" timestamp="1613845436718">
+    <state x="354" y="285" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613847025758" />
+    <state x="618" y="342" key="new project wizard" timestamp="1613887320811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="618" y="342" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1613845436718" />
-    <state x="1271" y="353" width="672" height="678" key="search.everywhere.popup" timestamp="1613844749148">
+    <state x="618" y="342" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1613887320811" />
+    <state x="1271" y="353" width="672" height="678" key="search.everywhere.popup" timestamp="1613897830597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1271" y="353" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613844749148" />
+    <state x="1271" y="353" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613897830597" />
   </component>
 </project>

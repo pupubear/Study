@@ -24,6 +24,6 @@ public class ProducerTest {
 
     @Test
     public void testSend(){
-        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_NAME,"boot.#","boot MQ hello~~~");
+        rabbitTemplate.convertAndSend(RabbitMQConfig.QUEUE_DEFAULT,"boot MQ hello~~~");
     }
 }
